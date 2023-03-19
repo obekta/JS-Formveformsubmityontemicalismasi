@@ -9,16 +9,21 @@
 
 </head>
 <body style="background-color:darkred">
-  <h2 class="font-italic">
-  Hoş geldiniz!!
-  </h2> <br>
-    <form onSubmit="handleSubmit(event)">
-        <input type="text" name="isim" placeholder="isminiz" id="inputIsim"> <br><br>
-        <input type="text" name="soy isim" placeholder="soy isminiz" id="inputSoyisim"> <br><br>
-        <input type="number" placeholder="numaranız" id="inputNumara"> <br><br>
-        <input type="text" placeholder="adresiniz" style="width: 350px" id="inputAdres"> <br><br>
-        <input type="submit" name="submit" value="giriniz" class="btn btn-secondary">
-    </form>
+ <div class="container mt-5">
+    <div class="col-sm-6 offset-sm-4">
+        <h2 class="font-italic">
+            Hoş geldiniz!!
+            </h2> <br>
+            <form onSubmit="handleSubmit(event)">
+                  <input type="text" name="isim" placeholder="isminiz" id="inputIsim"> <br><br>
+                  <input type="text" name="soy isim" placeholder="soy isminiz" id="inputSoyisim"> <br><br>
+                  <input type="number" placeholder="numaranız" id="inputNumara"> <br><br>
+                  <input type="text" placeholder="adresiniz" style="width: 350px" id="inputAdres"> <br><br>
+                  <input type="submit" name="submit" value="giriniz" class="btn btn-secondary">
+            </form>
+    </div>
+ </div>
+  
     <script src="Formveformsubmit.js"></script>
 </body>
 </html>
