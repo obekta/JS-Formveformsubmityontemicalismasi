@@ -1,4 +1,3 @@
-
 function handleSubmit(event) {
     event.preventDefault();
     let isimDOM = document.querySelector("#inputIsim").value
