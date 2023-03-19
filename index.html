@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>New Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
 </head>
 <body style="background-color:darkred">
-  <h2>
+  <h2 class="font-italic">
   Hoş geldiniz!!
-  </h2>
+  </h2> <br>
     <form onSubmit="handleSubmit(event)">
         <input type="text" name="isim" placeholder="isminiz" id="inputIsim"> <br><br>
         <input type="text" name="soy isim" placeholder="soy isminiz" id="inputSoyisim"> <br><br>
         <input type="number" placeholder="numaranız" id="inputNumara"> <br><br>
         <input type="text" placeholder="adresiniz" style="width: 350px" id="inputAdres"> <br><br>
-        <input type="submit" name="submit" value="giriniz">
+        <input type="submit" name="submit" value="giriniz" class="btn btn-secondary">
     </form>
     <script src="deneme.js"></script>
 </body>
